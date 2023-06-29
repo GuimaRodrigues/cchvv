@@ -17,7 +17,7 @@ describe('Cenário 1: Pesquisa avançada', () => {
         // pesquisa por titulo e descrição
         cy.get('[data-testid="s0-1-17-5[1]-[0]-LH_TitleDesc"]').click()
         wait()
-        // pesquisa por titulo e descrição
+        // aceitar ofertas
         cy.get('[data-testid="s0-1-17-6[3]-[0]-LH_BO"]').click()
         wait()
         // marcar como novo
